@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest    # you can specify the verions of ububut
 
     steps:
     - uses: actions/checkout@v3
